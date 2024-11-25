@@ -169,6 +169,6 @@ export const workExperiences = [
     title:
       "Obtención del certificado de profesionalidad IMSV0209 con una duración de 540 horas en las cuales he podido aprender las bases del lenguaje de marcas HTML y CSS. Así como, introducirme en el mundo de la programación con Javascript. Adicionalmente, he podido manejar herramientas de edición como Davinci Resolve, After Effects y Photosop.",
     icon: "/assets/css.svg",
-    animation: "salute",
+    animation: "victory",
   },
 ];

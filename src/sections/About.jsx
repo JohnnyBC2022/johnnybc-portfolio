@@ -76,11 +76,22 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">
-                Puedo trabajar de forma remota en cualquier lugar del mundo.
+                Estoy preparado para colaborar de manera remota con equipos de
+                cualquier rincón del mundo.
               </p>
               <p className="grid-subtext">
-                Aunque, actualmente resido en Pola de Laviana, Asturias.
+                Tengo experiencia trabajando en distintos entornos,
+                utilizando herramientas digitales para asegurar una comunicación
+                y productividad fluidas.
+                <br/>
+                Aunque actualmente resido en Pola de
+                Laviana, Asturias, una región rodeada de naturaleza que me
+                inspira en mi día a día, estoy abierto a nuevos desafíos y
+                oportunidades sin importar la ubicación. Mi enfoque está en
+                aportar valor, adaptarme a diferentes culturas y seguir
+                creciendo profesionalmente en un entorno global.
               </p>
+
               <a href="#contact">
                 <Button name="Contactar" isBeam containerClass="w-full mt-10" />
               </a>
@@ -97,10 +108,21 @@ const About = () => {
             <div>
               <p className="grid-headtext">Mi pasión por la programación.</p>
               <p className="grid-subtext">
-              Aunque aún no cuento con experiencia profesional en el sector tecnológico, poseo una sólida trayectoria en otros ámbitos que me ha permitido desarrollar habilidades clave como la resolución de problemas, el trabajo en equipo, la adaptabilidad y la comunicación efectiva.
-              <br></br>
-              <br></br>
-              Estas competencias son perfectamente aplicables al desarrollo de software, ya que disfruto transformando ideas en aplicaciones funcionales mediante el código. Estoy convencido de que mi pasión por la tecnología, mi dedicación y mi capacidad para aprender rápidamente pueden marcar la diferencia si se me da la oportunidad de demostrarlo. Estoy listo para convertir esta pasión en mi profesión y aportar valor al equipo que me dé la confianza de unirme a su proyecto.
+                Aunque aún no cuento con experiencia profesional en el sector
+                tecnológico, poseo una sólida trayectoria en otros ámbitos que
+                me ha permitido desarrollar habilidades clave como la resolución
+                de problemas, el trabajo en equipo, la adaptabilidad y la
+                comunicación efectiva.
+                <br></br>
+                <br></br>
+                Estas competencias son perfectamente aplicables al desarrollo de
+                software, ya que disfruto transformando ideas en aplicaciones
+                funcionales mediante el código. Estoy convencido de que mi
+                pasión por la tecnología, mi dedicación y mi capacidad para
+                aprender rápidamente pueden marcar la diferencia si se me da la
+                oportunidad de demostrarlo. Estoy listo para convertir esta
+                pasión en mi profesión y aportar valor al equipo que me dé la
+                confianza de unirme a su proyecto.
               </p>
             </div>
           </div>

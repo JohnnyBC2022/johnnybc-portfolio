@@ -80,16 +80,16 @@ const About = () => {
                 cualquier rincón del mundo.
               </p>
               <p className="grid-subtext">
-                Tengo experiencia trabajando en distintos entornos,
-                utilizando herramientas digitales para asegurar una comunicación
-                y productividad fluidas.
-                <br/>
-                Aunque actualmente resido en Pola de
-                Laviana, Asturias, una región rodeada de naturaleza que me
-                inspira en mi día a día, estoy abierto a nuevos desafíos y
-                oportunidades sin importar la ubicación. Mi enfoque está en
-                aportar valor, adaptarme a diferentes culturas y seguir
-                creciendo profesionalmente en un entorno global.
+                Tengo experiencia trabajando en distintos entornos, utilizando
+                herramientas digitales para asegurar una comunicación y
+                productividad fluidas.
+                <br />
+                Aunque actualmente resido en Pola de Laviana, Asturias, una
+                región rodeada de naturaleza que me inspira en mi día a día,
+                estoy abierto a nuevos desafíos y oportunidades sin importar la
+                ubicación. Mi enfoque está en aportar valor, adaptarme a
+                diferentes culturas y seguir creciendo profesionalmente en un
+                entorno global.
               </p>
 
               <a href="#contact">

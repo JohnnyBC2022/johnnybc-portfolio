@@ -13,7 +13,7 @@ const Experience = () => {
       <div className="w-full text-white-600">
         <h3 className="head-text">Experiencia y Formación</h3>
         <div className="work-container">
-          <div className="work-canvas">
+          <div className="work-canvas ">
             <Canvas>
               <ambientLight intensity={7} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
@@ -57,8 +57,10 @@ const Experience = () => {
                     </div>
 
                     <div className="sm:p-5 px-2.5 py-5">
-                      <p className="font-bold text-white-800">{name}  </p>
-                      <p className="text-sm mb-5">{pos} ({duration})</p>
+                      <p className="font-bold text-white-800">{name} </p>
+                      <p className="text-sm mb-5">
+                        {pos} ({duration})
+                      </p>
                       <p className="group-hover:text-white transition ease-in-out duration-500">
                         {title}
                       </p>

@@ -100,7 +100,7 @@ const About = () => {
               Aunque aún no cuento con experiencia profesional en el sector tecnológico, poseo una sólida trayectoria en otros ámbitos que me ha permitido desarrollar habilidades clave como la resolución de problemas, el trabajo en equipo, la adaptabilidad y la comunicación efectiva.
               <br></br>
               <br></br>
-              Estas competencias son perfectamente aplicables al desarrollo de software, ya que disfruto transformando ideas en aplicaciones funcionales mediante el código. Estoy convencido/a de que mi pasión por la tecnología, mi dedicación y mi capacidad para aprender rápidamente pueden marcar la diferencia si se me da la oportunidad de demostrarlo. Estoy listo para convertir esta pasión en mi profesión y aportar valor al equipo que me dé la confianza de unirme a su proyecto.
+              Estas competencias son perfectamente aplicables al desarrollo de software, ya que disfruto transformando ideas en aplicaciones funcionales mediante el código. Estoy convencido de que mi pasión por la tecnología, mi dedicación y mi capacidad para aprender rápidamente pueden marcar la diferencia si se me da la oportunidad de demostrarlo. Estoy listo para convertir esta pasión en mi profesión y aportar valor al equipo que me dé la confianza de unirme a su proyecto.
               </p>
             </div>
           </div>

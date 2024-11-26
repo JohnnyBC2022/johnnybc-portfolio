@@ -50,11 +50,11 @@ const Contact = () => {
         <img
           src="/assets/terminal.png"
           alt="terminal background"
-          className="absolute inset-0 min-h-screen"
+          className="absolute inset-0 h-full z-0"
         />
-        <div className="contact-container">
+        <div className="relative contact-container p-6 md:p-12 sm:p-16">
           <h3 className="head-text">Hablemos</h3>
-          <p className="text-lg text-white-600 mt-3">
+          <p className="text-lg text-white-600 mt-3 max-w-3xl w-full z-10">
             Si te gusta este portfolio y te interesa mi trabajo, no dudes en
             ponerte en contacto conmigo. ¡Siempre estoy dispuesto a ayudar!
           </p>

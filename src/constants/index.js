@@ -137,7 +137,7 @@ export const workExperiences = [
     pos: "Mentor Javascript ",
     duration: "Mayo2024 - Actualidad",
     title:
-      "Como parte del voluntariado de Factoría F5 he impartido conocimientos de introducción a Javascript para estudiantes de los bootcamps actuales. Estoy comprometido con la comunidad y el aprendizaje continuo.",
+      "Como voluntario en Factoría F5, he tenido el privilegio de impartir sesiones de introducción a JavaScript, orientando a estudiantes de los bootcamps actuales en sus primeros pasos dentro del mundo del desarrollo web. Esta experiencia no solo me ha permitido compartir mis conocimientos, sino también reforzar mi compromiso con el crecimiento de la comunidad tecnológica y fomentar el aprendizaje continuo. Estoy convencido de que el conocimiento se multiplica al compartirlo, y contribuir al desarrollo de futuros profesionales en tecnología es una de mis mayores satisfacciones.",
     icon: "/assets/javascript.svg",
     animation: "victory",
   },

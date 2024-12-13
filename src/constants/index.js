@@ -93,6 +93,39 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: "Aplicación para el control de Gastos",
+    desc: " Una aplicación para tener controlado el presupuesto mensual. Una vez establecido el presupuesto, se pueden añadir distintos tipos de gastos y categorizarlos. A medida que se van añadiendo a la lista, podemos visualizar mediante una gráfica el porcentaje que hemos consumido del presupuesto. Además, podemos filtrar por categorías.",
+    subdesc:
+      "Desarrollada con React.js, TailwindCSS y TypeScript. Al tener un state más complejo, la aplicación se apoya en el uso de reducer y context API lo que nos evita el uso de librerías externas como Redux, y tener un código más legible, flexible y fácil de mantener y escalar. ",
+    gitHref: "https://github.com/JohnnyBC2022/control-gastos-contextAPI",
+    depHref: "https://control-gastos-ts-johnnybcode.netlify.app/",
+    texture: "/textures/project/project3.mp4",
+    logo: "/assets/project-logo3.svg",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+    ],
+  },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {

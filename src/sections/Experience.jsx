@@ -9,7 +9,7 @@ const Experience = () => {
   const [animationName, setAnimationName] = useState("idle");
 
   return (
-    <section className="c-space my-20" id="work">
+    <section className="my-20 c-space" id="work">
       <div className="w-full text-white-600">
         <h3 className="head-text">Experiencia y Formación</h3>
         <div className="work-container">
@@ -49,7 +49,7 @@ const Experience = () => {
                       setAnimationName("idle");
                     }}
                   >
-                    <div className="flex flex-col h-full justify-start items-center py-2">
+                    <div className="flex flex-col items-center justify-start h-full py-2">
                       <div className="work-content_logo">
                         <img src={icon} alt="logo" className="w-full h-full" />
                       </div>
@@ -58,10 +58,10 @@ const Experience = () => {
 
                     <div className="sm:p-5 px-2.5 py-5">
                       <p className="font-bold text-white-800">{name} </p>
-                      <p className="text-sm mb-5">
+                      <p className="mb-5 text-sm">
                         {pos} ({duration})
                       </p>
-                      <p className="group-hover:text-white transition ease-in-out duration-500">
+                      <p className="transition duration-500 ease-in-out group-hover:text-white">
                         {title}
                       </p>
                     </div>

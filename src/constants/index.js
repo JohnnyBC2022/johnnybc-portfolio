@@ -126,6 +126,49 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: "Gestión de proyectos",
+    desc: " Aplicación Fullstack para la gestión de proyectos. Dentro de la aplicación, se pueden registrar usuarios, iniciar sesión.También se puede crear proyectos, filtrarlos por categorías, editarlos y borrarlos. Creación de tareas y asignación de distintos estados (pendiente, en progreso, terminado). Implementación de un chat y un servicio de mensajes y comentarios sencillo. Se puede invitar a otros usuarios a unirse al proyecto mediante email. ",
+    subdesc:
+      "Frontend Desarrollado con TailwindCSS y Shadcn/ui con un diseño atractivo y moderno. Se ha utilizado React con Javascript y uso de Reducers para la gestión de los numerosos estados. Backend desarrollado con Springboot con una API compleja que permite distintos tipos de peticiones a diversos endpoints.",
+    gitHref: "https://github.com/JohnnyBC2022/project-management-system-backend",
+    depHref: "https://projectmanagementsystem-johnnybcode.vercel.app/",
+    texture: "/textures/project/project4.mp4",
+    logo: "/assets/project-logo4.png",
+    logoStyle: {
+      backgroundColor: '#0c0a09',
+      border: '0.2px solid #222124',
+      boxShadow: '0px 0px 60px 0px #22c55e',
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "Java",
+        path: "/assets/java.svg",
+      },
+      {
+        id: 4,
+        name: "Springboot",
+        path: "/assets/spring-boot.svg",
+      },
+      {
+        id: 5,
+        name: "MySQL",
+        path: "/assets/mysql.svg",
+      },
+    ],
+  },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {

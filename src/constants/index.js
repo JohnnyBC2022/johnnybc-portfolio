@@ -131,16 +131,17 @@ export const myProjects = [
     desc: " Aplicación Fullstack para la gestión de proyectos. Dentro de la aplicación, se pueden registrar usuarios, iniciar sesión.También se puede crear proyectos, filtrarlos por categorías, editarlos y borrarlos. Creación de tareas y asignación de distintos estados (pendiente, en progreso, terminado). Implementación de un chat y un servicio de mensajes y comentarios sencillo. Se puede invitar a otros usuarios a unirse al proyecto mediante email. ",
     subdesc:
       "Frontend Desarrollado con TailwindCSS y Shadcn/ui con un diseño atractivo y moderno. Se ha utilizado React con Javascript y uso de Reducers para la gestión de los numerosos estados. Backend desarrollado con Springboot con una API compleja que permite distintos tipos de peticiones a diversos endpoints.",
-    gitHref: "https://github.com/JohnnyBC2022/project-management-system-backend",
+    gitHref: "https://github.com/JohnnyBC2022/project-managment-system-frontend",
+    gitHref2: "https://github.com/JohnnyBC2022/project-management-system-backend",
     depHref: "https://projectmanagementsystem-johnnybcode.vercel.app/",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {
       backgroundColor: '#0c0a09',
       border: '0.2px solid #222124',
-      boxShadow: '0px 0px 60px 0px #22c55e',
+      boxShadow: '0px 0px 60px 0px #22c55e4d',
     },
-    spotlight: "/assets/spotlight3.png",
+    spotlight: "/assets/spotlight4.png",
     tags: [
       {
         id: 1,
@@ -166,6 +167,50 @@ export const myProjects = [
         id: 5,
         name: "MySQL",
         path: "/assets/mysql.svg",
+      },
+    ],
+  },
+  {
+    title: "Gestión de productos",
+    desc: " Aplicación PERN que se puede utilizar como gestión de inventario y o productos. Puedes agregar un producto al inventario, editarlo, eliminarlo y cambiar su disponibilidad.  ",
+    subdesc:
+      "Frontend Desarrollado con TailwindCSS en su última versión. Se ha utilizado React con Typescript y el uso de React Router Dom para navegar entre las distintas urls de la aplicación. En el Backend se ha implementado una REST API usando Express, Sequelize y Typescript y testeado mediante Jest y Supertest. Para la base de datos se ha utilizado PostgreSQL. ",
+    gitHref: "https://github.com/JohnnyBC2022/fullstack_node_react_typescript-frontend",
+    gitHref2: "https://github.com/JohnnyBC2022/rest-api-node-ts-server",
+    depHref: "https://node-react-typescript-frontend.vercel.app/",
+    texture: "/textures/project/project5.mp4",
+    logo: "/assets/project-logo5.png",
+    logoStyle: {
+      backgroundColor: '#0c0a09',
+      border: '0.2px solid #222124',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: "/assets/spotlight5.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "Node",
+        path: "/assets/node.png",
+      },
+      {
+        id: 4,
+        name: "Express",
+        path: "/assets/express.png",
+      },
+      {
+        id: 5,
+        name: "Postgree",
+        path: "/assets/postgresql.svg",
       },
     ],
   },

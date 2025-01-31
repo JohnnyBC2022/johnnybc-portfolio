@@ -24,20 +24,20 @@ const Projects = () => {
   };
 
   return (
-    <section className="c-space my-20" id="projects">
+    <section className="my-20 c-space" id="projects">
       <p className="head-text">Proyectos Destacados</p>
-      <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
-        <div className="flex flex-col gap-6 relative sm:p-10 py-10 shadow-2xl shadow-black-200">
+      <div className="grid w-full grid-cols-1 gap-5 mt-12 lg:grid-cols-2">
+        <div className="relative flex flex-col gap-6 py-10 shadow-2xl sm:p-10 shadow-black-200">
           <div className="absolute top-0 right-0">
             <img
               src={currentProject.spotlight}
               alt="spotlight"
-              className="w-full h-96 object-cover rounded-xl"
+              className="object-cover w-full h-96 rounded-xl"
             />
           </div>
 
           <div
-            className="p-3 top-0 backdrop-filter backdrop-blur-3xl w-fit rounded-xl"
+            className="top-0 p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-xl"
             style={currentProject.logoStyle}
           >
             <img
@@ -47,15 +47,15 @@ const Projects = () => {
             />
           </div>
 
-          <div className="flex flex-col gap-5 text-white-600 my-5">
-            <p className="text-white text-2xl font-semibold animatedText">
+          <div className="flex flex-col gap-5 my-5 text-white-600">
+            <p className="text-2xl font-semibold text-white animatedText">
               {currentProject.title}
             </p>
             <p className="animatedText">{currentProject.desc}</p>
             <p className="animatedText">{currentProject.subdesc}</p>
           </div>
 
-          <div className="flex items-center justify-between flex-wrap gap-5">
+          <div className="flex flex-wrap items-center justify-between gap-5">
             <div className="flex items-center gap-3">
               {currentProject.tags.map((tag, index) => (
                 <div key={index} className="tech-logo">
@@ -63,10 +63,20 @@ const Projects = () => {
                 </div>
               ))}
             </div>
-            <div className="flex items-center gap-5 cursor-pointer font-semibold text-white ">
+            <div className="flex items-center gap-5 font-semibold text-white cursor-pointer ">
               <a href={currentProject.gitHref} target="_blank" rel="noreferrer">
                 <div className="flex items-center gap-2 hover:text-green-400">
-                  <p>GitHub</p>
+                  <p>Frontend</p>
+                  <img
+                    src="/assets/arrow-up.png"
+                    alt="arrow"
+                    className="w-3 h-3"
+                  />
+                </div>
+              </a>
+              <a href={currentProject?.gitHref2} target="_blank" rel="noreferrer">
+                <div className={currentProject.gitHref2 ? "flex items-center gap-2 hover:text-green-400" : "hidden"}>
+                  <p>Backend</p>
                   <img
                     src="/assets/arrow-up.png"
                     alt="arrow"
@@ -111,7 +121,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="border border-black-300 bg-black-200 rounded-lg h-96 md:h-full">
+        <div className="border rounded-lg border-black-300 bg-black-200 h-96 md:h-full">
           <Canvas>
             <ambientLight intensity={Math.PI / 2} />
             <directionalLight position={[10, 10, 5]} />
